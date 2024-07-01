@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CoDi</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240701184133">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<svg viewBox="0 0 483 308">
+						<path id="round" d="M99.2014,192.127c0-17.685,14.3266-32.021,31.9996-32.021c17.674,0,32,14.336,32,32.021s-14.326,32.021-32,32.021c-17.673,0-31.9996-14.336-31.9996-32.021Z" fill="#fff" />
+						<g id="triangle">
+							<path d="M409.6,209.738L208,307.402h-.001v-56.921l122.83-59.505-122.83-57.554v-56.5714h.001L409.6,171.313v38.425ZM169.599,76.8506h-54.399C51.5768,76.8506,0,128.461,0,192.126s51.5768,115.276,115.2,115.276h54.399v-51.234h-54.399c-35.3462,0-64-28.672-64-64.042c0-35.369,28.6538-64.042,64-64.042h54.399v-51.2334Z" fill="#fff" />
+							<path d="M207.999,76.8506l51.2,24.0154v182.52l-51.2,24.016v-230.5514Z" fill="#fff" />
+						</g>
+						<path id="l" d="M430.932,34.1567h51.2v273.2463h-51.2v-273.2463Z" fill="#fff" />
+					</svg>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+			<nav class="menu">
+				<div class="menu__container">
+					<div class="menu__logo">
+						<svg viewBox="0 0 483 308">
+							<path id="round" d="M99.2014,192.127c0-17.685,14.3266-32.021,31.9996-32.021c17.674,0,32,14.336,32,32.021s-14.326,32.021-32,32.021c-17.673,0-31.9996-14.336-31.9996-32.021Z" fill="#fff" />
+							<g id="triangle">
+								<path d="M409.6,209.738L208,307.402h-.001v-56.921l122.83-59.505-122.83-57.554v-56.5714h.001L409.6,171.313v38.425ZM169.599,76.8506h-54.399C51.5768,76.8506,0,128.461,0,192.126s51.5768,115.276,115.2,115.276h54.399v-51.234h-54.399c-35.3462,0-64-28.672-64-64.042c0-35.369,28.6538-64.042,64-64.042h54.399v-51.2334Z" fill="#fff" />
+								<path d="M207.999,76.8506l51.2,24.0154v182.52l-51.2,24.016v-230.5514Z" fill="#fff" />
+							</g>
+							<path id="l" d="M430.932,34.1567h51.2v273.2463h-51.2v-273.2463Z" fill="#fff" />
+						</svg>
+					</div>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a data-goto="#hero" href="#hero" class="menu__link"><span>Main</span></a>
+						</li>
+						<li class="menu__item">
+							<a data-goto="#what-we-do" href="#what-we-do" class="menu__link"><span>Services</span></a>
+						</li>
+						<li class="menu__item">
+							<a data-goto="#latest-projects" href="#latest-projects" class="menu__link"><span>Portfolio</span></a>
+						</li>
+						<li class="menu__item">
+							<a data-goto="#contact-us" href="#contact-us" class="menu__link"><span>Contacts</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main class="page">
+			<!--data-dynamic-theme - кожному другому елементу з цим атрибутом додається клас _light-->
+			<!--data-goto-anchor - за відсутності атрибута секція буде проігнорована кнопкою next-->
+			<section data-dynamic-theme id="hero" class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__body">
+						<div class="hero__logo">
+							<svg viewBox="0 0 483 308">
+								<path id="arc" d="M169.599,76.8506h-54.399C51.5768,76.8506,0,128.461,0,192.126s51.5768,115.276,115.2,115.276h54.399v-51.234h-54.399c-35.3462,0-64-28.672-64-64.042c0-35.369,28.6538-64.042,64-64.042h54.399v-51.2334Z" fill="#fff" />
+								<path id="round" d="M99.2014,192.127c0-17.685,14.3266-32.021,31.9996-32.021c17.674,0,32,14.336,32,32.021s-14.326,32.021-32,32.021c-17.673,0-31.9996-14.336-31.9996-32.021Z" fill="#fff" />
+								<g id="triangle">
+									<path d="M409.6,209.738L208,307.402h-.001v-56.921l122.83-59.505-122.83-57.554v-56.5714h.001L409.6,171.313v38.425Z" fill="#fff" />
+									<path d="M207.999,76.8506l51.2,24.0154v182.52l-51.2,24.016v-230.5514Z" fill="#fff" />
+								</g>
+								<path id="rectangle" d="M430.932,34.1567h51.2v273.2463h-51.2v-273.2463Z" fill="#fff" />
+							</svg>
+							<div class="hero__label">by David Freedman</div>
+						</div>
+						<h1 class="hero__title section-title">E-commerce Development Outsourcing</h1>
+						<div class="hero__text">
+							<p>
+								OpenCart | PHP | HTML+CSS | JavaScript | API
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="section-footer">
+					<div class="section-footer__container">
+						<a data-goto-next href="#" class="section-footer__link"><span>next</span></a>
+						<div class="section-footer__actions">
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button">to
+								order</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-dynamic-theme data-goto-anchor id="our-team" class="page__our-team our-team">
+				<div class="our-team__container">
+					<h2 class="our-team__title section-title section-title--dark">Our Team</h2>
+					<div class="our-team__items team">
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/01.webp" type="image/webp"><img src="img/our-team/01.webp" alt="Angelina Manko" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">Angelina Manko</a>
+								<div class="item-dev__label">PM - Project Manager</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/02.webp" type="image/webp"><img src="img/our-team/02.webp" alt="Belei Yevhen" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">Belei Yevhen</a>
+								<div class="item-dev__label">Web-Developer</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<img src="img/our-team/03.webp" alt="
+								Evgen Babych" class="ibg">
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">
+									Evgen Babych</a>
+								<div class="item-dev__label">Web-Developer</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/04.webp" type="image/webp"><img src="img/our-team/04.webp" alt="Kutsa Vladyslav" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">Kutsa Vladyslav</a>
+								<div class="item-dev__label">Web-Developer</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/05.webp" type="image/webp"><img src="img/our-team/05.webp" alt="Petrun Maksym" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">Petrun Maksym</a>
+								<div class="item-dev__label">Web-Developer</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/06.webp" type="image/webp"><img src="img/our-team/06.webp" alt="David Freedman" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">David Freedman</a>
+								<div class="item-dev__label">PHP Developer, Team Lead</div>
+							</div>
+						</article>
+						<article class="team__item item-dev">
+							<a href="#" class="item-dev__link-image">
+								<picture><source srcset="img/our-team/07.webp" type="image/webp"><img src="img/our-team/07.webp" alt="Angelina Manko" class="ibg"></picture>
+							</a>
+							<div class="item-dev__body">
+								<a href="#" class="item-dev__link">
+									Irina Smorodina</a>
+								<div class="item-dev__label">Content Manager, PPC</div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="section-footer">
+					<div class="section-footer__container">
+						<a data-goto-next href="#" class="section-footer__link"><span>next</span></a>
+						<div class="section-footer__actions">
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button">to
+								order</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-dynamic-theme data-goto-anchor id="what-we-do" class="page__what-we-do what-we-do">
+				<div class="what-we-do__container">
+					<div class="what-we-do__body">
+						<div class="what-we-do__content">
+							<h2 class="what-we-do__subtitle">What We Do</h2>
+							<h2 class="what-we-do__title section-title">Boosting Your Business Beyond Boundaries</h2>
+						</div>
+						<ul class="what-we-do__list list-what-we-do">
+							<li class="list-what-we-do__item">
+								<h5 class="list-what-we-do__title">Development of online stores</h5>
+								<div class="list-what-we-do__text">
+									<p>
+										Development of modules, OpenCart Development, Bank API Integration, Synchronization with delivery
+										services, Integration with marketplaces, Google feed, Facebook feed, Setting up E-commerce Google
+										Analytics 4.
+									</p>
+								</div>
+							</li>
+							<li class="list-what-we-do__item">
+								<h5 class="list-what-we-do__title">Marketing Promotion</h5>
+								<div class="list-what-we-do__text">
+									<p>
+										SEO Promotion, Google Ads Promotion, Copywriting, Crowd marketing.
+									</p>
+								</div>
+							</li>
+							<li class="list-what-we-do__item">
+								<h5 class="list-what-we-do__title">Outsourcing</h5>
+								<div class="list-what-we-do__text">
+									<p>
+										PHP, Front-end, Back-end, PM, PPC.
+									</p>
+								</div>
+							</li>
+							<li class="list-what-we-do__item">
+								<h5 class="list-what-we-do__title">Development</h5>
+								<div class="list-what-we-do__text">
+									<p>
+										Landing page, Blogs, Promo-site, Company website.
+									</p>
+								</div>
+							</li>
+							<li class="list-what-we-do__item">
+								<h5 class="list-what-we-do__title">Design</h5>
+								<div class="list-what-we-do__text">
+									<p>
+										Online store design, Logo design, Promo design, Website design.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<svg class="what-we-do__background" viewBox="0 0 1260 795" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect x="200" y="720" width="60" height="75" fill="#202022" />
+						<rect x="100" y="747" width="60" height="48" fill="#202022" />
+						<rect y="772" width="60" height="23" fill="#202022" />
+						<rect x="300" y="644" width="60" height="151" fill="#202022" />
+						<rect x="400" y="693" width="60" height="102" fill="#202022" />
+						<rect x="500" y="520" width="60" height="275" fill="#202022" />
+						<rect x="600" y="588" width="60" height="207" fill="#202022" />
+						<rect x="700" y="427" width="60" height="368" fill="#202022" />
+						<rect x="800" y="520" width="60" height="275" fill="#202022" />
+						<rect x="900" y="287" width="60" height="508" fill="#202022" />
+						<rect x="1000" y="146" width="60" height="649" fill="#202022" />
+						<rect x="1100" y="207" width="60" height="588" fill="#202022" />
+						<rect x="1200" width="60" height="795" fill="#202022" />
+					</svg>
+				</div>
+				<div class="section-footer">
+					<div class="section-footer__container">
+						<a data-goto-next href="#" class="section-footer__link"><span>next</span></a>
+						<div class="section-footer__actions">
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button">to
+								order</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-dynamic-theme data-goto-anchor id="work-us" class="page__work-us work-us">
+				<div class="work-us__container">
+					<h2 class="work-us__title section-title section-title--dark">Work Us</h2>
+					<div class="work-us__items">
+						<a href="#" class="work-us__item">
+							<picture><source srcset="img/work-us/01.webp" type="image/webp"><img src="img/work-us/01.webp" alt="DSN" class="ibg ibg--contain"></picture>
+						</a>
+						<a href="#" class="work-us__item">
+							<picture><source srcset="img/work-us/02.webp" type="image/webp"><img src="img/work-us/02.webp" alt="Fox" class="ibg ibg--contain"></picture>
+						</a>
+						<a href="#" class="work-us__item">
+							<picture><source srcset="img/work-us/03.webp" type="image/webp"><img src="img/work-us/03.webp" alt="Lockfort" class="ibg ibg--contain"></picture>
+						</a>
+						<a href="#" class="work-us__item">
+							<picture><source srcset="img/work-us/04.webp" type="image/webp"><img src="img/work-us/04.webp" alt="Svit Saun" class="ibg ibg--contain"></picture>
+						</a>
+
+					</div>
+				</div>
+				<div class="section-footer">
+					<div class="section-footer__container">
+						<a data-goto-next href="#" class="section-footer__link"><span>next</span></a>
+						<div class="section-footer__actions">
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button">to
+								order</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-dynamic-theme data-goto-anchor id="blog" class="page__posts posts">
+				<div class="posts__container">
+					<h2 class="posts__title section-title">Blog</h2>
+					<div class="posts__items">
+						<article class="posts__item item-posts">
+							<a href="#" class="item-posts__image-link ">
+								<picture><source srcset="img/monkey.webp" type="image/webp"><img src="img/monkey.webp" alt="monkey" class="ibg"></picture>
+							</a>
+							<a href="#" class="item-posts__link">Rescue the monkeys</a>
+						</article>
+						<article class="posts__item item-posts">
+							<a href="#" class="item-posts__image-link">
+								<picture><source srcset="img/monkey.webp" type="image/webp"><img src="img/monkey.webp" alt="monkey" class="ibg"></picture>
+							</a>
+							<a href="#" class="item-posts__link">Rescue the monkeys</a>
+						</article>
+						<article class="posts__item item-posts">
+							<a href="#" class="item-posts__image-link">
+								<picture><source srcset="img/monkey.webp" type="image/webp"><img src="img/monkey.webp" alt="monkey" class="ibg"></picture>
+							</a>
+							<a href="#" class="item-posts__link">Rescue the monkeys</a>
+						</article>
+					</div>
+				</div>
+				<div class="section-footer">
+					<div class="section-footer__container">
+						<a data-goto-next href="#" class="section-footer__link"><span>next</span></a>
+						<div class="section-footer__actions">
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button button--border">view
+								more</a>
+							<a href="#contact-us" data-goto="#contact-us" class="section-footer__button button">to
+								order</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-goto-anchor data-dynamic-theme class="contact-us" id="contact-us">
+				<div class="contact-us__container">
+					<div class="contact-us__header">
+						<h2 class="contact-us__title section-title">Contact Us</h2>
+						<div class="contact-us__subtitle">And we`ll do the rest</div>
+					</div>
+					<div class="contact-us__body">
+						<address class="contact-us__address address">
+							<div class="address__links">
+								<div class="address__social">
+									<a href="#" target="_blank" class="address__image-link">
+										<img src="img/social/01.svg" alt="Viber" class="ibg ibg--contain">
+									</a>
+									<a href="#" target="_blank" class="address__image-link">
+										<img src="img/social/02.svg" alt="Watsapp" class="ibg ibg--contain">
+									</a>
+									<a href="#" target="_blank" class="address__image-link">
+										<img src="img/social/03.svg" alt="Telegram" class="ibg ibg--contain">
+									</a>
+								</div>
+								<div class="address__phone">
+									<a href="tel:+380682087846" data-phone-format class="address__link">380682087846</a>
+									<div class="address__label">09:00 - 20:00</div>
+								</div>
+							</div>
+							<p class="address__text">Ukraine, Kyiv, str. Mendeleeva, 37</p>
+						</address>
+						<button data-popup="#form-popup" class="contact-us__button button button--dark">
+							Send Request
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<a href="#" class="lang">
+		<picture><source srcset="img/lang/uk.webp" type="image/webp"><img src="img/lang/uk.webp" alt="Ukrainian" class="ibg"></picture>
+	</a>
+	<div id="form-popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button class="popup__close" data-close>
+					<svg viewBox="0 0 35 35" fill="none">
+						<path d="M0.946045 35L9.89627e-05 34.0541L34.0542 -1.507e-07L35.0001 0.945946L0.946045 35Z" fill="black" />
+						<path d="M0.000244141 0.946289L0.94619 0.000343103L35.0002 34.0544L34.0543 35.0003L0.000244141 0.946289Z" fill="black" />
+					</svg>
+				</button>
+				<form class="form" action="#" method="post" enctype="multipart/form-data">
+					<div class="form__group group-form">
+						<label for="#name" class="group-form__label">Name</label>
+						<input type="text" required name="name" id="name" placeholder="John Jackson" class="group-form__input">
+					</div>
+					<div class="form__group group-form">
+						<label for="#phoneNumber" class="group-form__label">Phone Number</label>
+						<input type="text" required name="phoneNumber" id="phoneNumber" placeholder="+380 3234 345 34" class="group-form__input">
+					</div>
+					<div class="form__group group-form">
+						<label for="#email" class="group-form__label">E-mail</label>
+						<input type="email" required name="email" id="email" placeholder="email@gmail.com" class="group-form__input">
+					</div>
+					<button type="submit" class="form__button button button--dark">
+						Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240701184133"></script>
+
+</body>
+
+</html>
